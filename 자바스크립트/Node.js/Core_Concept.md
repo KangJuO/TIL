@@ -49,12 +49,12 @@
 ### **2. Blocking VS Non-Blocking, Synchronous VS Asynchronous**
 
 - Blocking VS Non-Blocking
-  - 다른 주체가 작업할 때 자신의 제어권에 초점을 둠
-    있다면 - Non-Blocking(**바로 반환되어 자신의 일을 수행**)
+  - 다른 주체가 작업할 때 자신의 제어권에 초점을 둠  
+    있다면 - Non-Blocking(**바로 반환되어 자신의 일을 수행**)  
     없다면 - Blocking(**반환을 기다려야함**)
 - Synchronous VS Asynchronous
-  - 다른 주체의 작업완료 여부에 초점을 둠
-    완료 여부가 중요 - Synchronous(**결과값으로 뭔가를 실행해야함**)
+  - 다른 주체의 작업완료 여부에 초점을 둠  
+    완료 여부가 중요 - Synchronous(**결과값으로 뭔가를 실행해야함**)  
     안 중요 - Asynchronous(**결과값으로 뭘 할 수도 있지만, 안할수도 있고, 내 할 일 할수도 있음**)
 
 ---
@@ -74,7 +74,7 @@
 - 프로세스, 스레드
   - **프로세스** : 운영체제에서 실행 중인 하나의 어플리케이션
     (ex : 크롬 브라우저를 두개 실행 → 두개의 프로세스 생성)
-  - **스레드** : 한 가지 작업을 실행하기 위한 **코드 흐름의 단위**
+  - **스레드** : 한 가지 작업을 실행하기 위한 **코드 흐름의 단위**  
   (ex : 프로세스 하나에 스레드가 두개 → 코드가 실행되는 흐름이 두개)
   <div><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ce139fcd-d255-4afb-bae8-6864d9d79b91/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211022T125728Z&X-Amz-Expires=86400&X-Amz-Signature=99c13ffa4228c188f9439e533d352683745f70d5f21c58672d25faede16d0df1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="700" height="300"></div>
 
@@ -82,7 +82,7 @@
 
 - 메모리 힙(Memory Heap), 콜 스택(Call Stack)
   - 메모리 힙 : 참조타입(객체 등등) 데이터가 저장됨
-  - 콜 스택 : 원시타입(숫자 등) 데이터가 저장됨
+  - 콜 스택 : 원시타입(숫자 등) 데이터가 저장됨  
   실행 컨텍스트를 통해 변수이름저장, 스코프 체인, THIS관리, 코드실행순서 관리 등등을 함
     <div><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/45070265-ca8a-418e-b61f-fc229e09b0c2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211022T125931Z&X-Amz-Expires=86400&X-Amz-Signature=013c888f8dcb838c152efd283bcf71869c03bb78b7e5e8230c215ebddbe7c0a1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="400" height="350"></div>
 
@@ -137,7 +137,7 @@ main();
     <div><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7d280b2e-d832-4350-8795-28a3fab4244c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211022T130828Z&X-Amz-Expires=86400&X-Amz-Signature=fcac2341f8285c2f9063e3654e39e191c15845e08e61f620af840d0bb66205f1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="800" height="350"></img>
 - 비동기 처리가 필요하게 될 경우 Node api를 통해 libuv 라이브러리에서 제공하는 비동기 처리를 하게됨
 - 이때 libuv 라이브러리에서 제공하는게 **이벤트 루프**
-- 이벤트 루프는 여러 단계(Event Queue)가 있고, 각각의 단계별로 설계된 역할을 수행함!
+- 이벤트 루프는 여러 단계(Event Queue)가 있고, 각각의 단계별로 설계된 역할을 수행함!  
   (그 외 외부 API호출(DB 데이터 호출 등)은 커널 혹은 자신의 워커 스레드가 수행함)
 - **이 이벤트 루프가 싱글 스레드이고 실제로 Javascript를 처리할 수 있는 메인 스레드라서 Node.js를 싱글스레드 라고한다.**
 - libuv는 커널에서 어떤 비동기 처리를 지원하는지 알고 있기 때문에 그런 작업을 받으면 커널의 비동기 함수들을 호출함. 작업이 완료되면 시스템 콜을 libuv에 전달하고 다시 이벤트 루프에 콜백으로 등록됨.
