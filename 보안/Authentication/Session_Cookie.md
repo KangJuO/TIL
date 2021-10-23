@@ -54,3 +54,16 @@
 
 - 서버에서 클라이언트의 상태를 모두 유지하고 있어야 하므로, 클라이언트 수에 따른 메모리나 디스크 또는 DB에 부하가 심하다.
 - 사용자가 많아지는 경우 로드 밸런싱을 사용한 서버 확장을 이용해야 하는데 이 때 세션의 관리가 어려워진다.
+
+---
+
+### ⚙️ Cookie Option
+
+- Domain : 클라이언트 쿠키의 도메인 옵션과 서버의 도메인이 일치해야만 쿠키 전송가능
+- Path : 세부경로는 서버라 라우팅할떄 사용하는경로(Default : "/")<br>설정된 Path를 전부 만족하는 경우에만 쿠키 전송가능
+- MaxAge, Expires : 쿠키의 유효기간 설정
+- Secure : 프로토콜에 따른 쿠키 전송 여부 설정(Default: "false")<br>"true"로 설정 할 경우 HTTPS 프로토콜에서만 전송가능
+- Samesite: Cross-Origin 요청을 받은 경우 메소드와 옵션의 조합으로 쿠키 전송여부 결정<br>
+  Lax: Cross-Origin 요청이면 'GET' 메소드에 대해서만 쿠키 전송<br>
+  Strict : Cross-Origin이 아닌 same-site(origin, server 도메인일치)인 경우에만 쿠키 전송<br>
+  None: 항상 쿠키를 전송가능. 쿠키 옵션 중 Secure 옵션 필요
