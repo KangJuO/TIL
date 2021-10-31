@@ -107,7 +107,9 @@
 - **SSL의 경유지로 ELB를 사용하는 경우에 SSL 처리에 따른 부하를 ELB가 수용하게 된다.**
 - IPv4, IPv6 지원
 - CloudWatch를 통한 모니터링 가능
-  <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1a220782-daf5-4e7f-b538-3fefc1678ca4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211031T115914Z&X-Amz-Expires=86400&X-Amz-Signature=0aad82ab7f333aabbab818fae93f9118ad702e55b7e76d93d4f891c22b72a4ce&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500" height="300"></img>
+
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1a220782-daf5-4e7f-b538-3fefc1678ca4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211031T115914Z&X-Amz-Expires=86400&X-Amz-Signature=0aad82ab7f333aabbab818fae93f9118ad702e55b7e76d93d4f891c22b72a4ce&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="500" height="300"></img>
+
 - 참고자료
   - AWS : [https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/how-elastic-load-balancing-works.html#x-forwarded-for](https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/how-elastic-load-balancing-works.html#x-forwarded-for)
   - 생활코딩 : [https://opentutorials.org/course/608/3008](https://opentutorials.org/course/608/3008)
@@ -131,9 +133,12 @@
 - CDN(Content Delivery Network)
   - 웹 페이지가 어디서 불려지는지, 불러오는 사용자가 어디에 서 불러오는지에 근거하여 웹페이지에 전달해주는 분산 네트워크
   - html, javascript, 이미지 파일들을 가지고 있는 내용물들을 가져오는 속도를 향상 시킬수 있음
-    <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dcbe802b-acef-4839-81b6-534a8863e737/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211031T120120Z&X-Amz-Expires=86400&X-Amz-Signature=05f207058876e29697f1bad5a44c394a6658631c9a2158d730cc37bfa4ed752a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22"></img>
-    <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/93b99c31-fe3d-4c4c-900e-3d325c868684/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211031T120135Z&X-Amz-Expires=86400&X-Amz-Signature=4ff5d7cfae1a9291e2697421addf0a009da8d4d158029894169c5cb52fa0e207&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22"></img>
-    출처 : [https://velog.io/@songa29/AWS-CloudFront란](https://velog.io/@songa29/AWS-CloudFront%EB%9E%80)
+
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dcbe802b-acef-4839-81b6-534a8863e737/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211031T120120Z&X-Amz-Expires=86400&X-Amz-Signature=05f207058876e29697f1bad5a44c394a6658631c9a2158d730cc37bfa4ed752a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22"></img>
+
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/93b99c31-fe3d-4c4c-900e-3d325c868684/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211031%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211031T120135Z&X-Amz-Expires=86400&X-Amz-Signature=4ff5d7cfae1a9291e2697421addf0a009da8d4d158029894169c5cb52fa0e207&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22"></img>
+
+출처 : [https://velog.io/@songa29/AWS-CloudFront란](https://velog.io/@songa29/AWS-CloudFront%EB%9E%80)
 
 ---
 
