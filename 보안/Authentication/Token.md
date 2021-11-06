@@ -22,7 +22,7 @@
    만료: 클라이언트에 실패 및 재로그인 요청 응답<br>
    유효: Access Token 재발급후 클라이언트에 전달
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6bc2e007-9893-46e4-9b6b-2c7fa7fbe143/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211024%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211024T140033Z&X-Amz-Expires=86400&X-Amz-Signature=2ab8049475eef2cff41ee9914be7e1791032250e940d7409f809344be35ac473&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="400" height="300"></img>
+<img src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6bc2e007-9893-46e4-9b6b-2c7fa7fbe143%2FUntitled.png&blockId=75c4cc32-1969-409e-8c59-dc6030c8a62c" width="400" height="300"></img>
 
 ---
 
