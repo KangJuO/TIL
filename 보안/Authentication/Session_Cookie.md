@@ -34,7 +34,7 @@
 3. 브라우저는 서비스 사용시 모든 요청에 cookie(sessionId)를 전송
 4. 서버는 클라이언트가 보낸 sessionId를 키로 서버 메모리,session store에서 사용자의 session정보 식별<br>-> 유효하다면, 요청에 대한 응답
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e753000d-4d5c-488a-98d9-f93cf2888eef/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211023T134921Z&X-Amz-Expires=86400&X-Amz-Signature=349b61d72dd578aba9bd3231e81b87928d54a5e570cc966f9d4302c8eb316f68&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="450" height="380">
+<img src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe753000d-4d5c-488a-98d9-f93cf2888eef%2FUntitled.png&blockId=6964a132-e48e-4b06-86eb-855b78d85005" width="450" height="380">
 
 ## **5. Session 특징**
 
