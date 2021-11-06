@@ -7,7 +7,7 @@
 
 ## **1. Work Flow**
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5be45a90-1827-4bc5-ace2-d3db72ff12d2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211029%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211029T123304Z&X-Amz-Expires=86400&X-Amz-Signature=150ee73a9a9cc1c0a98c00a8c6d0c4cebe12f5f7c85ed1ac1c6f324e1433df28&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="600" height="300"></img>
+<img src="https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5be45a90-1827-4bc5-ace2-d3db72ff12d2%2FUntitled.png&blockId=b7d99aeb-05af-42d2-9243-5255a6f96b84" width="600" height="300"></img>
 
 ```
 1. git등 형상관리 툴을 사용하여 github 등의 관리 시스템에 통합
